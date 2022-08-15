@@ -1,0 +1,267 @@
+header{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar{
+    margin-left: 270px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(140, 136, 136);
+}
+header #logos{
+    margin-left: 250px;
+}
+header .logo{
+    font-size: 20px;
+    padding-left: 40px;
+    color: black;
+}
+header .btn{
+    margin-left: 30px;
+    font-size: 20px;
+    height:50px;
+    padding: 10px;
+    background-color: rgb(190, 6, 6);
+    border-radius: 6px;
+}
+#mid{
+    display: flex;
+    /* margin: 50px; */
+    background-color: rgb(244, 247, 248);
+}
+#mid .one{
+    margin: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#mid .one .big1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mid .one .big2{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(107, 104, 104);
+}
+
+#mid .one .para1{
+    margin-top: 10px;
+    color: rgb(107, 104, 104);
+}
+
+
+#mid .two img{
+    height: 600px;
+    width: 800px;
+    margin-left: 50px;
+}
+#jerry img{
+    border-radius: 100px;
+    float: left;
+
+    height: 50px;
+    width: 50px;
+}
+
+#box h1{
+    margin-top: 40px;
+    margin-left: 400px;
+    
+}
+#box .para1{
+    margin-left: 400px;
+   color: gray; 
+    font-size: 18px;
+}
+#box .para2{
+    margin-left: 550px;
+    color: gray; 
+    font-size: 18px;
+}
+
+.inner
+{
+    display: flex;
+    /* margin-top: 20px; */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.inner .inner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    font-size: 15px;
+    color: rgb(62, 58, 58);
+}
+
+
+
+.inner .inner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    font-size: 15px;
+    color: rgb(62, 58, 58);
+}
+.inner .inner3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    font-size: 15px;
+    color: rgb(62, 58, 58);
+}
+
+.inner .inner1 img{
+    height: 150px;
+    width: 150px;
+}
+
+
+.inner .inner2 img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.inner .inner3 img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.inner .inner1 a
+{
+    text-decoration: none;
+    color: rgb(197, 9, 9);
+    font-size: 20px;
+}
+.inner .inner2 a
+{
+    text-decoration: none;
+    color: rgb(197, 9, 9);
+    font-size: 20px;
+}
+.inner .inner3 a
+{
+    text-decoration: none;
+    color: rgb(197, 9, 9);
+    font-size: 20px;
+}
+
+.third h1{
+    margin-left: 500px;
+    font-size: 30px;
+}
+
+.third .para1{
+    margin-left: 450px;
+    font-size: 19px;
+    color: gray;
+}
+
+.third .para2{
+    margin-left: 550px;
+    font-size: 19px;
+    color: gray;
+}
+
+.fourth{
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 60px;
+}
+.fourth img{
+    height: 50px;
+    width: 150px;
+    padding: 20px;
+    margin: 19px;
+    border: 2px solid rgb(229, 226, 226);
+}
+
+.sixth{
+    display: flex;
+    margin-left: 200px; 
+    margin-top: 50px;
+
+}
+.fifth h1{
+    margin-left: 400px;
+}
+.sixth img{
+    height: 300px;
+    width: 600px;
+}
+.ins{
+    display: flex;
+    flex-direction: column;
+}
+.sixth .ins{
+    margin-left: 60px;
+    font-size: 15px;
+    padding-top: 30px;
+    color: gray;
+}
+.seventh h1{
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.seventh h1 i{
+    color: rgb(198, 13, 13);
+    font-size: 25px;
+}
+.seventh p{
+    margin-left: 400px;
+    font-size: 18px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.seventh .para2{
+    margin-left: 500px;
+}
+.eighth{
+    display: flex;
+    border: 2px solid rgb(227, 225, 225);
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    padding: 100px;
+    background-color: rgb(238, 236, 236);
+}
+.eighth .one p{
+    color: rgb(90, 86, 86);
+}
+.eighth img{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.eighth .two{
+    margin-left: 200px;
+    color: rgb(90, 86, 86);
+    font-size: 20px;
+}
+.ninth h1{
+    margin-left: 600px;
+}
+.ninth pre{
+    margin-left: 400px;
+    font-size: 15px;
+    color: rgb(85, 83, 83);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
