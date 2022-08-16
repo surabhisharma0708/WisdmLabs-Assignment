@@ -5,385 +5,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TastyTrails</title>
-    <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <!-- css file link -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" />
-
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
 
+
 <body>
-
-    <!-- header section -->
     <header>
-        <a href="#" class="logo"><i class="fas fa-utensils"></i> Tasty Trails</a>
 
-        <div id="menu-bar"> <i class="fas fa-bars"></i> </div>
+
+        <img src="./assets/logo.png" alt="">
 
         <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#speciality">speciality</a>
-            <a href="#popular">popular</a>
-            <a href="#gallery">gallery</a>
-            <a href="#review">review</a>
-            <a href="#order">order</a>
-
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services <i class="fas fa-caret-down"></i> </a>
+            <a href="#WordPress">WordPress <i class="fas fa-caret-down"></i></a>
+            <a href="#Products">Products <i class="fas fa-caret-down"></i></a>
         </nav>
+
+        <div id="logos">
+            <a href="#" class="logo"><i class="fas fa-search"></i></a>
+            <a href="#" class="logo"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" class="logo"><i class="fas fa-user"></i> </a>
+        </div>
+        <button class="btn">Contact Us</button>
     </header>
 
-    <!-- home section -->
-    <section class="home" id="home">
+    <div id="mid">
 
-        <div class="content">
-            <h3>food made with love</h3>
-            <p>You will find the best food made with love with best services. It’s not true that money can’t buy
-                happiness, but sometimes good food can buy the happiness</p>
-            <a href="#" class="btn">order now</a>
+        <div class="one">
+            <pre class="big1">Dream Big.
+Grow Your Business.
+</pre>
+<p class="para1" style="font-size: 20px;">Don't worry about software... we'll take care of it.</p>
+            <pre class="big2">The team of WisdmLabs take a personal internet in making
+sure we succeed together as a team!
+        </pre>
+            <div id="jerry">
+    <pre>
+    <img src="./assets/jerry.jfif" alt=""><span style="font-size: 17px;">Jerry Wang</span>
+    123 Certify
+                </pre>
+            </div>
         </div>
 
-        <div class="image">
-            <img src="images/home-img.png" alt="">
+        <div class="two">
+            <img src="./assets/back1.jpeg" alt="">
         </div>
 
-    </section>
-
-    <!-- speciality section -->
-    <section class="speciality" id="speciality">
-        <h1 class="heading">our <span>speciality</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="images/s-img-1.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-1.png" alt="">
-                    <h3>Tasty Burger</h3>
-                    <p>One burger won’t make you fat. It’ll only increases your happiness levels.</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/s-img-2.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-2.png" alt="">
-                    <h3>Tasty Pizza</h3>
-                    <p>Beauty comes in all shapes and sizes. Small, large, circle, square, thin crust, thick crust,
-                        stuffed crust, extra toppings.</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/s-img-3.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-3.png" alt="">
-                    <h3>Cold Ice-Cream</h3>
-                    <p>You can’t buy happiness but you can buy ice cream. And that’s kind of the same thing.</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/s-img-4.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-4.png" alt="">
-                    <h3>Cold drinks</h3>
-                    <p>Enjoying the rest of summer, one bendy straw at a time.</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/s-img-5.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-5.png" alt="">
-                    <h3>Tasty Sweets</h3>
-                    <p>To a hungry person, every bitter food is sweet. When the preferable is not available, the
-                        available becomes preferable!</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/s-img-6.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-6.png" alt="">
-                    <h3>Healthy Breakfast</h3>
-                    <p> Breakfast is the one meal at which it is permissible to read the paper.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- popular section -->
-    <section class="popular" id="popular">
-        <h1 class="heading">most <span>popular</span> foods</h1>
-
-        <div class="box-container">
-            <div class="box">
-                <span class="price">Rs 250 - Rs 500</span>
-                <img src="images/pic1.png" alt="">
-                <h3>tasty burger</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price">Rs 300 - Rs 1200</span>
-                <img src="images/pic2.png" alt="">
-                <h3>cakes</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price">Rs 200 - Rs 800</span>
-                <img src="images/p-3.jpg" alt="">
-                <h3>sweets</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price">Rs 50 - Rs 500</span>
-                <img src="images/p-4.jpg" alt="">
-                <h3>cupcakes</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price">Rs 100 - Rs 1000</span>
-                <img src="images/p-5.jpg" alt="">
-                <h3>drinks</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price">Rs 50 - Rs 700</span>
-                <img src="images/p-6.jpg" alt="">
-                <h3>ice-cream</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- steps section -->
-    <section class="steps">
-        <div class="box">
-            <img src="images/step-1.jpg" alt="">
-            <h3>choose your favourite food</h3>
-        </div>
-        <div class="box">
-            <img src="images/step-2.jpg" alt="">
-            <h3>free and fast delivery</h3>
-        </div>
-        <div class="box">
-            <img src="images/step-3.jpg" alt="">
-            <h3>easy payment methods</h3>
-        </div>
-        <div class="box">
-            <img src="images/step-4.jpg" alt="">
-            <h3>enjoy your food</h3>
-        </div>
-    </section>
-
-    <!-- Gallery section -->
-    <section class="gallery" id="gallery">
-        <h1 class="heading">our food <span>gallery</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="images/g-1.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>One burger won’t make you fat. It’ll only increases your happiness levels.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-2.jpg" alt="">
-                <div class="content">
-                    <h3>tasty sandwiches</h3>
-                    <p>Sandwiches are wonderful. You don't need a spoon or a plate!</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-3.jpg" alt="">
-                <div class="content">
-                    <h3>tasty rolls</h3>
-                    <p>I judge a restaurant by the bread and by the coffee.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-4.jpg" alt="">
-                <div class="content">
-                    <h3>cupcakes</h3>
-                    <p>Happiness is only one cupcake away</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-5.jpg" alt="">
-                <div class="content">
-                    <h3>sweets</h3>
-                    <p>To a hungry person, every bitter food is sweet. When the preferable is not available, the
-                        available becomes preferable!</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-6.jpg" alt="">
-                <div class="content">
-                    <h3>Fried stuff</h3>
-                    <p>Ive seen Fried Green Tomatoes too many times. I love life stories told in flashback.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-7.jpg" alt="">
-                <div class="content">
-                    <h3>bread omlete</h3>
-                    <p>Egg puns are eggs-quisite.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-8.jpg" alt="">
-                <div class="content">
-                    <h3>chocolates</h3>
-                    <p>Chocolate is not cheating! After a salty meal, you need a little bit of sweet. This is living, not cheating.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-9.jpg" alt="">
-                <div class="content">
-                    <h3>cake</h3>
-                    <p>Let’s face it, a nice creamy chocolate cake does a lot of good for a lot of people.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- review section -->
-    <section class="review" id="review">
-        <h1 class="heading">our customers <span>reviews</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="images/pic1.png" alt="">
-                <h3>John Deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p>Really decent food and at affordable prices, What a lovely restaurant, highly recommended.Thank you
-                    so much for the wonderful meal on Saturday night celebrating my birthday with my family and friends.
-                </p>
-            </div>
-            <div class="box">
-                <img src="images/pic2.png" alt="">
-                <h3>Stewart Wood</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p>I want to say you Thank you for these reviews and also giving advice about some restaurants. Thank
-                    you very much.!</p>
-            </div>
-            <div class="box">
-                <img src="images/pic3.png" alt="">
-                <h3>Peter Willson</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p>Thank you so much for the sample. I appreciate it so much if you could share this to my email account
-                    so that I will be having an ample time to read again</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- order section -->
-    <section class="order" id="order">
-        <h1 class="heading"><span>order</span> now</h1>
-        <div class="row">
-            <div class="image">
-                <img src="images/order-img.jpg" alt="">
-            </div>
-            <form action="">
-                <div class="inputbox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-                <div class="inputbox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="food name">
-                </div>
-
-                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="order now" class="btn">
-            </form>
-        </div>
-    </section>
-    <section class="footer">
-        <div class="share">
-            <a href="#" class="btn">facebook</a>
-            <a href="#" class="btn">twitter</a>
-            <a href="#" class="btn">instagram</a>
-            <a href="#" class="btn">pinterest</a>
-            <a href="#" class="btn">linkedin</a>
-        </div>
-        <h1 class="credit">copyright &copy; <span>www.TastyTrails.com</span> | all rights reserved</h1>
-    </section>
-
-    <!-- scroll top button -->
-    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
-
-
-    <div class="loader-container">
-        <img src="images/loader.gif" alt="">
     </div>
 
-    <!-- js script file link -->
-    <script src="js/script.js"></script>
+
+    <div id="box">
+        <h1>Overcome Your Biggest Technology Challenges</h1>
+        <p class="para1">As tech-partners, we build custom solutions an open sourse to meet the current needs of </p>
+        <p class="para2">your organization and to scale for future growth</p>
+
+        <div class="inner">
+            <div class="inner1">
+                <img src="./assets/Ecommerce.jpeg" alt="">
+                <h2>eCommerce</h2>
+                <p>e-Commerce is at the heart of most business. <span style="color: black; font-weight: bold;">We break down the complexity of e-Commerce </span>to meet the unique needs of your business.</p>
+                <a href="#">Explore How <i class="fas fa-angle-right"></i> </a>
+            </div>
+            <div class="inner2">
+                <img src="./assets/E-Learning.jpeg" alt="" srcset="">
+                <h2>eLearning</h2>
+                <p>Online education demands engaginguser-interfaces. But it's also about having <span style="color: black; font-weight: bold;">the right learning experiences </span>for all users of the platform. That's where our expertise lies.</p>
+                <a href="#">Find Out More <i class="fas fa-angle-right"></i> </a>
+            </div>
+            <div class="inner3">
+                <img src="./assets/wordpress.jpeg" alt="">
+                <h2>WordPress</h2>
+                <p>The WordPress CMS has evolved to be a trusted platform for <span style="color: black; font-weight: bold;">simple as well as complex applications.</span> We love its customizability and are sure you will like it too.</p>
+                <a href="#">View Services and Products <i class="fas fa-angle-right"></i> </a>
+            
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="third">
+        <h1>We've Worked with Brands Big and Small</h1>
+        <p class="para1">Our Clientele is spread ocross the globe in <span style="color: black; font-weight: bold;">27 countries </span>and speaks <span style="color: black; font-weight: bold;">34 languages</span>. We speak</p>
+        <p class="para2">multiple languages too. But it's only computers that understand them;)</p>
+    </div>
+
+    <div class="fourth">
+        <img src="./assets/directi.jfif" alt="">
+        <img src="./assets/R.jfif" alt="">
+        <img src="./assets/tata.jpg" alt="">
+        <img src="./assets/fchnukf.jfif" alt="">
+        <img src="./assets/tea.png" alt="">
+        <img src="./assets/sycol.jpg" alt="">
+        <img src="./assets/tech.jfif" alt="" srcset="">
+    </div>
+
+
+    <div class="fifth">
+        <h1>We Go Beyond Fuctionality to Build Experiences</h1>
+
+        <div class="sixth">
+            <img src="./assets/back2.jpeg" alt="">
+
+            <div class="ins">
+                <pre>You  might  have come across  a lot of companies that seem to do
+what we do -- use software to build features.</pre>
+                <pre>And it's not about how we're better than them; it's about how
+we're different. We don't stop at workability.</pre>
+                <pre style="color: black; font-weight:bold;">We  dive  deep  into  your  customer  persona  to  deliver
+unforgettable  experiences.</pre>
+            </div>
+        </div>
+
+        <div class="seventh">
+            <h1>Sharing with You Some Client <i class="fas fa-heart"></i> </h1>
+            <p>For some clients, we're consultants, for some-technology partners, for other-</p>
+            <p class="para2">platform architects, and then for some- we're rock stars.</p>
+        </div>
+
+        
+        <div class="eighth">
+            <div class="one">
+                <img src="./assets/bts.jpg">
+                <pre>Gustav Hjuskstrom</pre>
+                <p>Founder-NyttiCity</p>
+            </div>
+
+            <div class="two">
+                <p>The work executed by WisdmLabs has been fantastic. I</p>
+                <p>can strongly recommend WisdmLabs to all types of</p>
+                <p>companies with a programming "headache".</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ninth">
+        <h1>A Glimpse of Our Work</h1>
+        <pre class="para1">After countless brainstroming sessions, tonnes of experiments, and <span style="color:black;"> years of persistent ans hard work, </span>
+        we've built a solid repository of over <span style="color:black;"> 1700+ enterprising projects.</span></pre>
+    </div>
+
+
+
 </body>
 
 </html>
